@@ -3,13 +3,6 @@ import "./App.css";
 //import "bootstrap/dist/css/bootstrap.css";
 import "bootswatch/dist/minty/bootstrap.css";
 
-//1. ввести правильные координаты в массив констант +
-//2. сделать получение погоды по координатам вместо зип кода, не сломав при этом авто определение
-//3. подключить bootswatch(разобраться почему не работает), попробовать разные темы
-//4. бонус - если не получилось определить местоположение авоматически, 
-// то сообщить об этом пользователю, привязать на кнопку
-//5.округлить авто координаты
-
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
