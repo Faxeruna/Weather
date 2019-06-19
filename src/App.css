@@ -2,11 +2,13 @@
   text-align: center;
 }
 
-.ymaps {
-  width: 80%; 
-  height: 80%; 
-  padding: 0; 
-  margin: 0;
+.navbar {
+  border-radius: 5px !important; 
+}
+
+.custom {
+  width: 100%;
+  margin-top: 10px; 
 }
 
 .App-logo {

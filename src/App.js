@@ -77,13 +77,12 @@ class MapDisplay extends Component {
   render() {
     const center = this.props.center;
     return (
-      <div>
+      <div class = "custom">
         <YMaps>
-          <div>
             <Map 
               state={{ center: center, zoom: 10 }}
+              width={"100%"}
             />
-          </div>
         </YMaps>
       </div>
     );
